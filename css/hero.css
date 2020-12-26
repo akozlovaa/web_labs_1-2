@@ -1,0 +1,50 @@
+.hero {
+    background-image: url(../img/Home.jpg);
+    background-repeat: no-repeat;
+    background-position: top 175px right -350px;
+    width: 50% right;
+}
+
+.hero-inner {
+    padding-top: 120px;
+    padding-bottom: 140px;
+    width: 50%;
+}
+
+.hero-text {
+    line-height: 26px;
+}
+
+.hero-articles {
+    display: flex;
+    margin-top: 45px;
+}
+
+@media screen and (max-width: 375px) {
+    .hero-articles {
+        flex-direction: column;
+    }
+}
+
+.hero-article {
+    width: 50%;
+}
+
+.hero-article-paragraph {
+    font-size: 12px;
+    line-height: 18px;
+    color: #5D6970;
+}
+
+@media screen and (max-width: 1360px) {
+    .hero {
+        background-image: none;
+    }
+    .hero-inner {
+        width: 100%;
+        padding-bottom: 75px;
+    }
+    .hero-article {
+        width: 100%;
+    }
+}

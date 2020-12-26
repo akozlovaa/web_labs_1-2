@@ -2,169 +2,170 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>Landing</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet"> 
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <header class="header">
+    <div class="page">
+        <div class="container">
+            <header class="header">
+                <div class="header-menu" onclick="toggleMenu()">
+                    <img src="img/menu-icon.svg" alt="Menu icon">
+                </div>
 
-    <div class="container header__container">
+                <a href="#" class="header_title">Landie</a>
+                <nav id="nav-links" class="header-nav">
 
-      <a class="header__nav-title" href="#">Landie</a>
+                    <ul>
+                        <li class="header-nav-item"><a href="#">Home</a></li>
+                        <li class="header-nav-item"><a href="#">About</a></li>
+                        <li class="header-nav-item"><a href="#">Pricing</a></li>
+                    </ul>
 
-      <nav class="header__nav">
 
-        <ul>
-          <li class="header__nav-item"><a class="header__nav-link" href="">Home</a></li>
-          <li class="header__nav-item"><a class="header__nav-link" href=" #">About</a></li>
-          <li class="header__nav-item"><a class="header__nav-link" href=" #">Pricing</a></li>
-        </ul>
+                    <button class="header-buttons button-learn-more"> Learn more</button>
+                    <button class="header-buttons button-buy-now">Buy now</button>
+                </nav>
+            </header>
+        </div>
 
-      </nav>
+        <section class="hero">
 
-      <button class="header__buttons button-learn-more"> Learn more</button>
-      <button class="header__buttons button-buy-now">Buy now</button>
+            <div class="container">
+                <div class="hero-inner">
+                    <h1 class="hero-title">Introduce Your Product Quickly & Effectively</h1>
+                    <p class="hero-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                    </p>
+                    <p class="hero-text">Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
 
-    </div>
+                    <div class="hero-articles">
 
-  </header>
+                        <div class="hero-article">
+                            <img src="../labs_1-2/img/icon.svg" alt="icon image">
+                            <h2 class="hero-atricle-title">Title Goes Here</h2>
+                            <p class="hero-article-paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
+                        </div>
+                        <div class="hero-article">
+                            <img src="../labs_1-2/img/icon.svg" alt="icon image">
+                            <h2 class="hero-atricle-title">Title Goes Here</h2>
+                            <p class="hero-article-paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-  <section class="section-1">
-    <div class="introduction__background"></div>
-    <div class="introduction">
-      <h1 class="introduction__title">Introduce Your Product Quickly & Effectively</h1>
-      <p class="introduction_text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
-        dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-        mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
-    </div>
+        </section>
 
-    <div class="flex__container">
+        <section>
+            <div class="container content-container">
 
-      <div class="article intro-first">
-        <img src="..\labs_1-2\image\icon.svg" alt="icon image">
-        <h2 class="atricle__title">Title Goes Here</h2>
-        <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-          commodo ligula eget dolor. </p>
-      </div>
+                <div class="content">
+                    <h1 class="content-header">Light, Fast & Powerful</h1>
+                    <p class="content-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+                    </p>
+                    <p>mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                    </p>
+                    <div class="content-articles">
+                        <div class="content-article">
+                            <img src="../labs_1-2/img/icon.svg" alt="icon image">
+                            <h2 class="content-atricle-title">Title Goes Here</h2>
+                            <p class="content-article-paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
+                        </div>
 
-      <div class="article intro-second">
-        <img src="..\labs_1-2\image\icon.svg" alt="icon image">
-        <h2 class="atricle__title">Title Goes Here</h2>
-        <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-          commodo ligula eget dolor. </p>
-      </div>
+                        <div class="content-article">
+                            <img src="../labs_1-2/img/icon.svg" alt="icon image">
+                            <h2 class="content-atricle-title">Title Goes Here</h2>
+                            <p class="content-article-paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    </div>
+        <section>
+            <div class="container info-container">
+                <div class="info">
+                    <h1>A Price To Suit Everyone</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus </p>
+                </div>
 
-  </section>
+                <div class="price-info-container">
+                    <ul>
+                        <li class="info-item">
+                            <h1 class="info-price">FREE</h1>
+                            <h2>UI Kit Demo</h2>
+                            <p class="info-paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                            </p>
+                            <p class="info-paragraph">Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,</p>
+                            <button class="info-button">Purchase Now</button>
+                        </li>
 
-  <section class="section-2">
+                        <li class="info-item">
+                            <h1 class="info-price">$40</h1>
+                            <h2>Design Kit</h2>
+                            <p class="info-paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                            </p>
+                            <p class="info-paragraph">Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,</p>
+                            <button class="info-button">Purchase Design Kit</button>
+                        </li>
 
-    <img class="image" src="..\labs_1-2\image\girl.png" alt="graphic of a girl standing">
+                        <li class="info-item">
+                            <h1 class="info-price">$75</h1>
+                            <h2>Design & Code Package</h2>
+                            <p class="info-paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                            </p>
+                            <p class="info-paragraph">Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,</p>
+                            <button class="info-button">Purchase Package</button>
+                        </li>
+                    </ul>
+                </div>
 
-    <div class="content">
-      <h1 class="content__header">Light, Fast & Powerful</h1>
-      <p class="content__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
-        dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-        mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
-    </div>
+        </section>
 
-    <div class="flex__container">
 
-      <div class="article content-first">
-        <img src="..\labs_1-2\image\icon.svg" alt="icon">
-        <h2 class="atricle__title">Title Goes Here</h2>
-        <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-          commodo ligula eget dolor. </p>
-      </div>
+        <footer class="footer">
+            <div class="container footer-container">
+                <div class="footer-copy">&copy; 2020 LPNU</div>
 
-      <div class="article content-second">
-        <img src="..\labs_1-2\image\icon.svg" alt="icon">
-        <h2 class="atricle__title">Title Goes Here</h2>
-        <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-          commodo ligula eget dolor. </p>
-      </div>
+                <a href="#" class="footer-title">Landie</a>
 
-  </section>
+                <div class="footer-line"></div>
+                <div class="footer-vertical">
+                    <button class="footer-button">IoT edition</button>
 
-  <section class="section-3">
+                    <div class="footer-link-container">
+                        <ul>
+                            <li class="footer-link"><a href="#">Home</a></li>
+                        </ul>
+                        <ul>
+                            <li class="footer-link"><a href="#">About</a></li>
+                        </ul>
+                        <ul>
+                            <li class="footer-link"><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
 
-    <div class="info">
-      <h1>A Price To Suit Everyone</h1>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-        Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus </p>
-    </div>
+                    <div class="footer-logo-container">
 
-    <div class="info__container">
-      <ul>
-        <li class="info__item">
-          <h1 class="info__price">FREE</h1>
-          <h2>UI Kit Demo</h2>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,</p>
-          <button class="info__button">Purchase Now</button>
-        </li>
+                        <ul>
+                            <li class="footer-social-logo"><img src="img/footer-icons/facebook-icon.svg" alt="Facebook"></li>
+                            <li class="footer-social-logo"><img src="img/footer-icons/linkedin-icon.svg" alt="Linkedin"></li>
+                            <li class="footer-social-logo"><img src="img/footer-icons/twitter-icon.svg" alt="Twitter"></li>
+                            <li class="footer-social-logo"><img src="img/footer-icons/youtube-icon.svg" alt="YouTube"></li>
+                            <li class="footer-social-logo"><img src="img/footer-icons/instagram-icon.svg" alt="Instagram"></li>
+                        </ul>
 
-        <li class="info__item">
-          <h1 class="info__price">$40</h1>
-          <h2>Design Kit</h2>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,</p>
-          <button class="info__button">Purchase Design Kit</button>
-        </li>
-
-        <li class="info__item">
-          <h1 class="info__price">$75</h1>
-          <h2>Design & Code Package</h2>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,</p>
-          <button class="info__button">Purchase Package</button>
-        </li>
-
-      </ul>
-    </div>
-  </section>
-
-  <footer class="footer">
-
-    <div class="footer__copy">&copy; 2020 LPNU</div>
-
-    <a href="#" class="footer__title">Landie</a>
-
-    <div class="footer__line"></div>
-
-    <button class="footer__button">IoT edition</button>
-
-    <div class="footer__link__container">
-      <ul>
-        <li class="footer_link"><a href="#">Home</a></li>
-      </ul>
-      <ul>
-        <li class="footer_link"><a href="#">About</a></li>
-      </ul>
-      <ul>
-        <li class="footer_link"><a href="#">Contact</a></li>
-      </ul>
-    </div>
-
-    <div class="footer__logo__container">
-
-      <ul>
-        <li class="footer__social-logo"><img src="..\labs_1-2\image\footer\facebook_logo.svg" alt="Facebook"></li>
-        <li class="footer__social-logo"><img src="..\labs_1-2\image\footer\linkedin_logo.svg" alt="Linkedin"></li>
-        <li class="footer__social-logo"><img src="..\labs_1-2\image\footer\twitter_logo.svg" alt="Twitter"></li>
-        <li class="footer__social-logo"><img src="..\labs_1-2\image\footer\youtube_logo.svg" alt="YouTube"></li>
-        <li class="footer__social-logo"><img src="..\labs_1-2\image\footer\instagram_logo.svg" alt="Instagram"></li>
-      </ul>
-
-    </div>
-
-  </footer>
-
+                    </div>
+                </div>
+            </div>
+        </footer>
+        </div>
+        <script src="js/script.js"></script>
 </body>
 
 </html>
