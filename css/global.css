@@ -1,0 +1,70 @@
+body {
+    background: #FFFFFF;
+    font-family: 'Roboto', 'Arial', sans-serif;
+}
+
+.page {
+    margin: 0 auto;
+    max-width: 1560px;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        text-align: center;
+    }
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+}
+
+h2 {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+p {
+    color: #6f7cb2;
+}
+
+button {
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #505F98;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    display: block;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1440px) {
+    .container {
+        padding: 0 40px;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    .container {
+        max-width: 1560px;
+    }
+    body {
+        font-size: 20px;
+    }
+    a {
+        font-size: 20px;
+    }
+}
