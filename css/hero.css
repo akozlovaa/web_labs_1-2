@@ -5,32 +5,33 @@
     width: 50% right;
 }
 
-.hero-inner {
-    padding-top: 120px;
-    padding-bottom: 140px;
+.hero__inner {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    margin-right: 154px;
     width: 50%;
 }
 
-.hero-text {
+.hero__text {
     line-height: 26px;
 }
 
-.hero-articles {
+.hero__articles {
     display: flex;
     margin-top: 45px;
 }
 
 @media screen and (max-width: 375px) {
-    .hero-articles {
+    .hero__articles {
         flex-direction: column;
     }
 }
 
-.hero-article {
+.hero__article {
     width: 50%;
 }
 
-.hero-article-paragraph {
+.hero__article-paragraph {
     font-size: 12px;
     line-height: 18px;
     color: #5D6970;
@@ -40,11 +41,11 @@
     .hero {
         background-image: none;
     }
-    .hero-inner {
+    .hero__inner {
         width: 100%;
         padding-bottom: 75px;
     }
-    .hero-article {
+    .hero__article {
         width: 100%;
     }
 }
